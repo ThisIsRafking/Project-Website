@@ -1,0 +1,104 @@
+/* Laptop Small 1024px */
+
+@media only screen and (min-width: 1024px) and (max-width:1440px){
+    header {
+        padding: 3%;
+    }
+
+    img {
+        max-width: 13%;
+        position: relative;
+    }
+
+    navbar {
+        position: relative;
+        left: 100px;
+        top: 5px;
+    }
+
+    .one {
+        max-width: 35px;
+        position: relative;
+        margin-left: 5px;
+        left: 137px; 
+    }
+
+    .two {
+        max-width: 35px;
+        position: relative;
+        top: -8px;
+        left: 18px;
+    }
+    
+    h2 {
+        font-size: 22px;
+        position: relative;
+        bottom: 9px;
+        left: 15px;
+    }
+
+    .search {
+        width: 50%;
+        height: 40px;
+        border-radius: 20px;
+        color: #00678a;
+        text-indent: 20px;
+        font-size: 13px;
+    }
+
+    #search-icon {
+        font-size: 20px;
+        position: relative;
+        right: 40px;
+        top: 3px;
+        cursor: pointer;
+    }
+
+    main {
+        max-width: 1024px;
+        width: 95%;
+        margin: 30px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: rgb(0, 0, 0);
+    }
+
+    main .card {
+        width: 45%;
+        margin: 20px 0;
+    }
+
+    main .card .image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    main .card .caption {
+        padding-left: 1em;
+        text-align: left;
+        line-height: 1.5em;
+    }
+
+    main .card .caption p {
+        font-size: 1.2rem;
+    }
+
+    main .card button {
+        border: 2px solid black;
+        padding: 0.8em;
+        width: 80%;
+        cursor: pointer;
+        margin-top: 1em;
+        font-weight: bold;
+        position: relative;
+    }
+
+    .product_name {
+        text-align: center;
+        position: relative;
+        right: 5px;
+        top: 10px;
+    }
+}
