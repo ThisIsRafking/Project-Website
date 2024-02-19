@@ -1,6 +1,6 @@
 /* Laptop Small 1024px */
 
-@media only screen and (min-width: 1024px) and (max-width:1440px){
+@media only screen and (min-width:1000px) and (max-width: 1300px){
     header {
         padding: 3%;
     }
@@ -67,6 +67,111 @@
     main .card {
         width: 45%;
         margin: 20px 0;
+    }
+
+    main .card .image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    main .card .caption {
+        padding-left: 1em;
+        text-align: left;
+        line-height: 1.5em;
+    }
+
+    main .card .caption p {
+        font-size: 1.2rem;
+    }
+
+    main .card button {
+        border: 2px solid black;
+        padding: 0.8em;
+        width: 80%;
+        cursor: pointer;
+        margin-top: 1em;
+        font-weight: bold;
+        position: relative;
+    }
+
+    .product_name {
+        text-align: center;
+        position: relative;
+        right: 5px;
+        top: 10px;
+    }
+}
+
+/* LAPTOP LARGE 1440px */
+
+@media (min-width:1301px) and (max-width:1700px) {
+    header {
+        padding: 2%;
+    }
+
+    img {
+        max-width: 10%;
+        position: relative;
+    }
+
+    navbar {
+        position: relative;
+        left: 160px;
+        top: 0px;
+    }
+
+    .one {
+        max-width: 42px;
+        position: relative;
+        margin-left: 5px;
+        left: 135px;
+    }
+
+    .two {
+        max-width: 42px;
+        position: relative;
+        top: -8px;
+        left: 15px;
+    }
+    
+    h2 {
+        font-size: 23px;
+        position: relative;
+        bottom: 5px;
+        left: 14px;
+    }
+
+    .search {
+    width: 700px;
+    height: 43px;
+    border-radius: 20px;
+    color: #00678a;
+    text-indent: 20px;
+    font-size: 14px;
+}
+
+    #search-icon {
+        font-size: 22px;
+        position: relative;
+        right: 45px;
+        top: 3px;
+        cursor: pointer;
+    }
+
+    main {
+        max-width: 1440px;
+        width: 95%;
+        margin: 30px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: rgb(0, 0, 0);
+    }
+
+    main .card {
+        width: 45%;
+        margin: 20px 10px;
     }
 
     main .card .image img {
