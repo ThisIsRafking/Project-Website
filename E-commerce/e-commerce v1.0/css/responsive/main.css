@@ -107,18 +107,18 @@
 
 @media (min-width:1301px) and (max-width:1700px) {
     header {
-        padding: 2%;
+        padding: 3%;
     }
 
     img {
-        max-width: 10%;
+        max-width: 12%;
         position: relative;
     }
 
     navbar {
         position: relative;
-        left: 160px;
-        top: 0px;
+        left: 90px;
+        top: 5px;
     }
 
     .one {
